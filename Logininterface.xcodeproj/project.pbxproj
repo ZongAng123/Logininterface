@@ -15,6 +15,39 @@
 		740B758F1E589ADF0030D713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740B758D1E589ADF0030D713 /* LaunchScreen.storyboard */; };
 		740B759A1E589ADF0030D713 /* LogininterfaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75991E589ADF0030D713 /* LogininterfaceTests.m */; };
 		740B75A51E589ADF0030D713 /* LogininterfaceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75A41E589ADF0030D713 /* LogininterfaceUITests.m */; };
+		740B75B71E589B4C0030D713 /* ForgetPasswordViewControllerr.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75B61E589B4C0030D713 /* ForgetPasswordViewControllerr.m */; };
+		740B75BA1E589B670030D713 /* ForgetPasswordTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75B91E589B670030D713 /* ForgetPasswordTwoViewController.m */; };
+		740B75BD1E589BBB0030D713 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75BC1E589BBB0030D713 /* Color.m */; };
+		740B75C01E589BF30030D713 /* UITextField+checkLength.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75BF1E589BF30030D713 /* UITextField+checkLength.m */; };
+		740B75C31E589C1D0030D713 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75C21E589C1D0030D713 /* Tool.m */; };
+		740B75C81E589C8B0030D713 /* YL_CustomAlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75C71E589C8B0030D713 /* YL_CustomAlterView.m */; };
+		740B75CB1E589CC90030D713 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75CA1E589CC90030D713 /* MBProgressHUD.m */; };
+		740B75CE1E589D040030D713 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75CD1E589D040030D713 /* RegisterViewController.m */; };
+		740B75D11E589D190030D713 /* VerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740B75D01E589D190030D713 /* VerificationViewController.m */; };
+		740B75ED1E58A3440030D713 /* 登陆的图标@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75D51E58A3440030D713 /* 登陆的图标@3x.png */; };
+		740B75EE1E58A3440030D713 /* 登录的图标@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75D61E58A3440030D713 /* 登录的图标@2x.png */; };
+		740B75EF1E58A3440030D713 /* 返回键@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75D71E58A3440030D713 /* 返回键@2x.png */; };
+		740B75F01E58A3440030D713 /* 返回键@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75D81E58A3440030D713 /* 返回键@3x.png */; };
+		740B75F11E58A3440030D713 /* 密码锁@2x副本.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75D91E58A3440030D713 /* 密码锁@2x副本.png */; };
+		740B75F21E58A3440030D713 /* 密码锁@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75DA1E58A3440030D713 /* 密码锁@3x.png */; };
+		740B75F31E58A3440030D713 /* 清除@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75DB1E58A3440030D713 /* 清除@2x.png */; };
+		740B75F41E58A3440030D713 /* 清除@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75DC1E58A3440030D713 /* 清除@3x.png */; };
+		740B75F51E58A3440030D713 /* 竖线@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75DD1E58A3440030D713 /* 竖线@2x.png */; };
+		740B75F61E58A3440030D713 /* 竖线@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75DE1E58A3440030D713 /* 竖线@3x.png */; };
+		740B75F71E58A3440030D713 /* 头像3@.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75DF1E58A3440030D713 /* 头像3@.png */; };
+		740B75F81E58A3440030D713 /* 椭圆-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E01E58A3440030D713 /* 椭圆-1@2x.png */; };
+		740B75F91E58A3440030D713 /* 椭圆-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E11E58A3440030D713 /* 椭圆-1@3x.png */; };
+		740B75FA1E58A3440030D713 /* 问号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E21E58A3440030D713 /* 问号@2x.png */; };
+		740B75FB1E58A3440030D713 /* 问号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E31E58A3440030D713 /* 问号@3x.png */; };
+		740B75FC1E58A3440030D713 /* 右箭头@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E41E58A3440030D713 /* 右箭头@2x.png */; };
+		740B75FD1E58A3440030D713 /* 右箭头@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E51E58A3440030D713 /* 右箭头@3x.png */; };
+		740B75FE1E58A3440030D713 /* account@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E61E58A3440030D713 /* account@2x.png */; };
+		740B75FF1E58A3440030D713 /* account@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E71E58A3440030D713 /* account@3x.png */; };
+		740B76001E58A3440030D713 /* alert_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E81E58A3440030D713 /* alert_bg@2x.png */; };
+		740B76011E58A3440030D713 /* lock-@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75E91E58A3440030D713 /* lock-@2x.png */; };
+		740B76021E58A3440030D713 /* lock-@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75EA1E58A3440030D713 /* lock-@3x.png */; };
+		740B76031E58A3440030D713 /* mobile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75EB1E58A3440030D713 /* mobile@2x.png */; };
+		740B76041E58A3440030D713 /* mobile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 740B75EC1E58A3440030D713 /* mobile@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +84,49 @@
 		740B75A01E589ADF0030D713 /* LogininterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LogininterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740B75A41E589ADF0030D713 /* LogininterfaceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogininterfaceUITests.m; sourceTree = "<group>"; };
 		740B75A61E589ADF0030D713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740B75B51E589B4C0030D713 /* ForgetPasswordViewControllerr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewControllerr.h; sourceTree = "<group>"; };
+		740B75B61E589B4C0030D713 /* ForgetPasswordViewControllerr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewControllerr.m; sourceTree = "<group>"; };
+		740B75B81E589B670030D713 /* ForgetPasswordTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordTwoViewController.h; sourceTree = "<group>"; };
+		740B75B91E589B670030D713 /* ForgetPasswordTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordTwoViewController.m; sourceTree = "<group>"; };
+		740B75BB1E589BBB0030D713 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		740B75BC1E589BBB0030D713 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		740B75BE1E589BF30030D713 /* UITextField+checkLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+checkLength.h"; sourceTree = "<group>"; };
+		740B75BF1E589BF30030D713 /* UITextField+checkLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+checkLength.m"; sourceTree = "<group>"; };
+		740B75C11E589C1D0030D713 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		740B75C21E589C1D0030D713 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		740B75C61E589C8B0030D713 /* YL_CustomAlterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YL_CustomAlterView.h; sourceTree = "<group>"; };
+		740B75C71E589C8B0030D713 /* YL_CustomAlterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YL_CustomAlterView.m; sourceTree = "<group>"; };
+		740B75C91E589CC90030D713 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		740B75CA1E589CC90030D713 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		740B75CC1E589D040030D713 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		740B75CD1E589D040030D713 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		740B75CF1E589D190030D713 /* VerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerificationViewController.h; sourceTree = "<group>"; };
+		740B75D01E589D190030D713 /* VerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerificationViewController.m; sourceTree = "<group>"; };
+		740B75D31E589FAD0030D713 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		740B75D51E58A3440030D713 /* 登陆的图标@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆的图标@3x.png"; sourceTree = "<group>"; };
+		740B75D61E58A3440030D713 /* 登录的图标@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录的图标@2x.png"; sourceTree = "<group>"; };
+		740B75D71E58A3440030D713 /* 返回键@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回键@2x.png"; sourceTree = "<group>"; };
+		740B75D81E58A3440030D713 /* 返回键@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回键@3x.png"; sourceTree = "<group>"; };
+		740B75D91E58A3440030D713 /* 密码锁@2x副本.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码锁@2x副本.png"; sourceTree = "<group>"; };
+		740B75DA1E58A3440030D713 /* 密码锁@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码锁@3x.png"; sourceTree = "<group>"; };
+		740B75DB1E58A3440030D713 /* 清除@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除@2x.png"; sourceTree = "<group>"; };
+		740B75DC1E58A3440030D713 /* 清除@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "清除@3x.png"; sourceTree = "<group>"; };
+		740B75DD1E58A3440030D713 /* 竖线@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竖线@2x.png"; sourceTree = "<group>"; };
+		740B75DE1E58A3440030D713 /* 竖线@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "竖线@3x.png"; sourceTree = "<group>"; };
+		740B75DF1E58A3440030D713 /* 头像3@.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像3@.png"; sourceTree = "<group>"; };
+		740B75E01E58A3440030D713 /* 椭圆-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1@2x.png"; sourceTree = "<group>"; };
+		740B75E11E58A3440030D713 /* 椭圆-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "椭圆-1@3x.png"; sourceTree = "<group>"; };
+		740B75E21E58A3440030D713 /* 问号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "问号@2x.png"; sourceTree = "<group>"; };
+		740B75E31E58A3440030D713 /* 问号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "问号@3x.png"; sourceTree = "<group>"; };
+		740B75E41E58A3440030D713 /* 右箭头@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右箭头@2x.png"; sourceTree = "<group>"; };
+		740B75E51E58A3440030D713 /* 右箭头@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "右箭头@3x.png"; sourceTree = "<group>"; };
+		740B75E61E58A3440030D713 /* account@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account@2x.png"; sourceTree = "<group>"; };
+		740B75E71E58A3440030D713 /* account@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account@3x.png"; sourceTree = "<group>"; };
+		740B75E81E58A3440030D713 /* alert_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alert_bg@2x.png"; sourceTree = "<group>"; };
+		740B75E91E58A3440030D713 /* lock-@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-@2x.png"; sourceTree = "<group>"; };
+		740B75EA1E58A3440030D713 /* lock-@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-@3x.png"; sourceTree = "<group>"; };
+		740B75EB1E58A3440030D713 /* mobile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile@2x.png"; sourceTree = "<group>"; };
+		740B75EC1E58A3440030D713 /* mobile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +177,15 @@
 		740B757E1E589ADF0030D713 /* Logininterface */ = {
 			isa = PBXGroup;
 			children = (
+				740B75D41E58A32E0030D713 /* Image */,
+				740B75B41E589B1C0030D713 /* ForgetPassWord */,
+				740B75B31E589B140030D713 /* Other */,
+				740B75B21E589B060030D713 /* NewUer */,
 				740B75821E589ADF0030D713 /* AppDelegate.h */,
 				740B75831E589ADF0030D713 /* AppDelegate.m */,
 				740B75851E589ADF0030D713 /* ViewController.h */,
 				740B75861E589ADF0030D713 /* ViewController.m */,
+				740B75D31E589FAD0030D713 /* PrefixHeader.pch */,
 				740B75881E589ADF0030D713 /* Main.storyboard */,
 				740B758B1E589ADF0030D713 /* Assets.xcassets */,
 				740B758D1E589ADF0030D713 /* LaunchScreen.storyboard */,
@@ -138,6 +219,92 @@
 				740B75A61E589ADF0030D713 /* Info.plist */,
 			);
 			path = LogininterfaceUITests;
+			sourceTree = "<group>";
+		};
+		740B75B21E589B060030D713 /* NewUer */ = {
+			isa = PBXGroup;
+			children = (
+				740B75CC1E589D040030D713 /* RegisterViewController.h */,
+				740B75CD1E589D040030D713 /* RegisterViewController.m */,
+				740B75CF1E589D190030D713 /* VerificationViewController.h */,
+				740B75D01E589D190030D713 /* VerificationViewController.m */,
+			);
+			name = NewUer;
+			sourceTree = "<group>";
+		};
+		740B75B31E589B140030D713 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				740B75C51E589C430030D713 /* CustomView */,
+				740B75C41E589C2F0030D713 /* MBProgressHUD */,
+				740B75BB1E589BBB0030D713 /* Color.h */,
+				740B75BC1E589BBB0030D713 /* Color.m */,
+				740B75BE1E589BF30030D713 /* UITextField+checkLength.h */,
+				740B75BF1E589BF30030D713 /* UITextField+checkLength.m */,
+				740B75C11E589C1D0030D713 /* Tool.h */,
+				740B75C21E589C1D0030D713 /* Tool.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		740B75B41E589B1C0030D713 /* ForgetPassWord */ = {
+			isa = PBXGroup;
+			children = (
+				740B75B51E589B4C0030D713 /* ForgetPasswordViewControllerr.h */,
+				740B75B61E589B4C0030D713 /* ForgetPasswordViewControllerr.m */,
+				740B75B81E589B670030D713 /* ForgetPasswordTwoViewController.h */,
+				740B75B91E589B670030D713 /* ForgetPasswordTwoViewController.m */,
+			);
+			name = ForgetPassWord;
+			sourceTree = "<group>";
+		};
+		740B75C41E589C2F0030D713 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				740B75C91E589CC90030D713 /* MBProgressHUD.h */,
+				740B75CA1E589CC90030D713 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		740B75C51E589C430030D713 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				740B75C61E589C8B0030D713 /* YL_CustomAlterView.h */,
+				740B75C71E589C8B0030D713 /* YL_CustomAlterView.m */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		740B75D41E58A32E0030D713 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				740B75D51E58A3440030D713 /* 登陆的图标@3x.png */,
+				740B75D61E58A3440030D713 /* 登录的图标@2x.png */,
+				740B75D71E58A3440030D713 /* 返回键@2x.png */,
+				740B75D81E58A3440030D713 /* 返回键@3x.png */,
+				740B75D91E58A3440030D713 /* 密码锁@2x副本.png */,
+				740B75DA1E58A3440030D713 /* 密码锁@3x.png */,
+				740B75DB1E58A3440030D713 /* 清除@2x.png */,
+				740B75DC1E58A3440030D713 /* 清除@3x.png */,
+				740B75DD1E58A3440030D713 /* 竖线@2x.png */,
+				740B75DE1E58A3440030D713 /* 竖线@3x.png */,
+				740B75DF1E58A3440030D713 /* 头像3@.png */,
+				740B75E01E58A3440030D713 /* 椭圆-1@2x.png */,
+				740B75E11E58A3440030D713 /* 椭圆-1@3x.png */,
+				740B75E21E58A3440030D713 /* 问号@2x.png */,
+				740B75E31E58A3440030D713 /* 问号@3x.png */,
+				740B75E41E58A3440030D713 /* 右箭头@2x.png */,
+				740B75E51E58A3440030D713 /* 右箭头@3x.png */,
+				740B75E61E58A3440030D713 /* account@2x.png */,
+				740B75E71E58A3440030D713 /* account@3x.png */,
+				740B75E81E58A3440030D713 /* alert_bg@2x.png */,
+				740B75E91E58A3440030D713 /* lock-@2x.png */,
+				740B75EA1E58A3440030D713 /* lock-@3x.png */,
+				740B75EB1E58A3440030D713 /* mobile@2x.png */,
+				740B75EC1E58A3440030D713 /* mobile@3x.png */,
+			);
+			name = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +410,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740B76021E58A3440030D713 /* lock-@3x.png in Resources */,
+				740B75F61E58A3440030D713 /* 竖线@3x.png in Resources */,
+				740B75ED1E58A3440030D713 /* 登陆的图标@3x.png in Resources */,
+				740B76001E58A3440030D713 /* alert_bg@2x.png in Resources */,
 				740B758F1E589ADF0030D713 /* LaunchScreen.storyboard in Resources */,
+				740B75F41E58A3440030D713 /* 清除@3x.png in Resources */,
+				740B75FA1E58A3440030D713 /* 问号@2x.png in Resources */,
+				740B75FF1E58A3440030D713 /* account@3x.png in Resources */,
+				740B75EE1E58A3440030D713 /* 登录的图标@2x.png in Resources */,
+				740B75FB1E58A3440030D713 /* 问号@3x.png in Resources */,
+				740B75EF1E58A3440030D713 /* 返回键@2x.png in Resources */,
+				740B75F11E58A3440030D713 /* 密码锁@2x副本.png in Resources */,
+				740B75F81E58A3440030D713 /* 椭圆-1@2x.png in Resources */,
+				740B76041E58A3440030D713 /* mobile@3x.png in Resources */,
+				740B75F21E58A3440030D713 /* 密码锁@3x.png in Resources */,
+				740B76031E58A3440030D713 /* mobile@2x.png in Resources */,
 				740B758C1E589ADF0030D713 /* Assets.xcassets in Resources */,
+				740B75F91E58A3440030D713 /* 椭圆-1@3x.png in Resources */,
+				740B76011E58A3440030D713 /* lock-@2x.png in Resources */,
+				740B75F31E58A3440030D713 /* 清除@2x.png in Resources */,
+				740B75FC1E58A3440030D713 /* 右箭头@2x.png in Resources */,
+				740B75F01E58A3440030D713 /* 返回键@3x.png in Resources */,
+				740B75FD1E58A3440030D713 /* 右箭头@3x.png in Resources */,
 				740B758A1E589ADF0030D713 /* Main.storyboard in Resources */,
+				740B75F51E58A3440030D713 /* 竖线@2x.png in Resources */,
+				740B75FE1E58A3440030D713 /* account@2x.png in Resources */,
+				740B75F71E58A3440030D713 /* 头像3@.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +461,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740B75CE1E589D040030D713 /* RegisterViewController.m in Sources */,
 				740B75871E589ADF0030D713 /* ViewController.m in Sources */,
+				740B75B71E589B4C0030D713 /* ForgetPasswordViewControllerr.m in Sources */,
+				740B75BA1E589B670030D713 /* ForgetPasswordTwoViewController.m in Sources */,
+				740B75BD1E589BBB0030D713 /* Color.m in Sources */,
+				740B75C01E589BF30030D713 /* UITextField+checkLength.m in Sources */,
 				740B75841E589ADF0030D713 /* AppDelegate.m in Sources */,
 				740B75811E589ADF0030D713 /* main.m in Sources */,
+				740B75CB1E589CC90030D713 /* MBProgressHUD.m in Sources */,
+				740B75D11E589D190030D713 /* VerificationViewController.m in Sources */,
+				740B75C31E589C1D0030D713 /* Tool.m in Sources */,
+				740B75C81E589C8B0030D713 /* YL_CustomAlterView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +615,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zongang/Desktop/Logininterface/Logininterface/PrefixHeader.pch;
 				INFOPLIST_FILE = Logininterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.Logininterface";
@@ -426,6 +628,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/zongang/Desktop/Logininterface/Logininterface/PrefixHeader.pch;
 				INFOPLIST_FILE = Logininterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-23.Logininterface";
@@ -498,6 +702,7 @@
 				740B75AB1E589ADF0030D713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		740B75AC1E589ADF0030D713 /* Build configuration list for PBXNativeTarget "LogininterfaceTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +711,7 @@
 				740B75AE1E589ADF0030D713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		740B75AF1E589ADF0030D713 /* Build configuration list for PBXNativeTarget "LogininterfaceUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +720,7 @@
 				740B75B11E589ADF0030D713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
